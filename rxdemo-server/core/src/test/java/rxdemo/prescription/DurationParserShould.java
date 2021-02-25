@@ -29,7 +29,6 @@ public class DurationParserShould {
    @Test
    public void returnZeroIfNoParts() {
       assertEquals(0, DurationParser.parseDays(""));
-      assertEquals(0, 1);
    }
 
    @Test
